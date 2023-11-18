@@ -1,7 +1,7 @@
 # js-video-play-pause
 **If you have a lot of information to display on your site, why don't you use my accordion menu**
 
-
+![screencapture-file-C-Users-ASUS-Desktop-JS-WDRO-3-project-1-js-index-html-2023-11-18-19_56_53](https://github.com/REZA-OJAGHI-DRO/js-video-play-pause/assets/145910720/63e7cc93-0c7d-44e6-918b-8788f252a466)
 
 - [Demo Project](https://reza-ojaghi-dro.github.io/js-video-play-pause/)
  
