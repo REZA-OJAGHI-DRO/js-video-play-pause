@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheet/global.css">
+    <link rel="stylesheet" href="assets/stylesheet/master.css">
+    <link rel="stylesheet" href="assets/boot/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/boot/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="div w-100 ">
+        <header class="w-100 d-grid ">
+            <section class="w-100 p-0">
+                <video autoplay loop class="para2">
+                    <source src="assets/img/54b1983c334f724cab14318bd1f1034c5723506-720p_۱_۱.mp4">
+                </video>
+            </section>
+            <section class="d-flex justify-content-center p-5">
+                <h1>reza ojaghi</h1>
+            </section>
+            <section class="w-100 d-flex align-items-end">
+                <div class="d-grid">
+                    <article class="col-12 d-flex">
+                        <p class="d-flex justify-content-center m-0 align-items-center col-6">play</p>
+                        <p class="d-flex justify-content-center m-0 align-items-center col-6">pause</p>
+                    </article>
+                    <article class="col-12 d-flex">
+                        <div class="para col-6"></div>
+                    </article>
+                    <article class="d-flex">
+                        <div class="" onclick="_key(event)"></div>
+                        <div class="" onclick="_key(event)"></div>
+                    </article>
+                </div>
+            </section>
+        </header>
+    </div>
+</body>
+<script>
+    let i=1
+    const _key=(e)=>{
+        document.getElementsByClassName('para')[0].classList.toggle('box1')
+        if(i%2){
+            document.getElementsByClassName('para2')[0].pause();
+        }else{
+            document.getElementsByClassName('para2')[0].play();        
+        }
+        i++
+    }
+</script>
+</html>
