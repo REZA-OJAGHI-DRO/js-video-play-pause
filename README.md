@@ -3,7 +3,7 @@
 
 
 
-- [Demo Project]()
+- [Demo Project](https://reza-ojaghi-dro.github.io/js-video-play-pause/)
  
 - Developed by reza ojaghi
 
